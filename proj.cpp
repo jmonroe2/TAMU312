@@ -5,7 +5,7 @@ using namespace std;
 g++ proj.cpp -o run
 */
 
-// what prevents me from not assigning anything to internal output? in negate?
+// MAIN BEGINS ON LINE 574 (sorry I didn't define functions then use them below, let me know if this is too much af a hassle)
 int function_count = 0;
 
 void print(bool a)
