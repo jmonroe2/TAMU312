@@ -388,30 +388,6 @@ bool* equal_fullout(bool* output, bool input1[8], bool input2[8])
 
 {
     // fun count 55
-/*
-    bool* bit_equal = new bool[8];
-    
-    int index = 7;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    
-    index = 6;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 5;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 4;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 3;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 2;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 1;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    index = 0;
-    bit_equal[index] = Equal(input1[index],input2[index]);
-    
-    result = all_one(bit_equal); // if inputs are equal, all bits must be equal (all true)
-*/
-    //////////
     bool result = equal(input1,input2);
     output[7] = result;
     output[6] = result;
