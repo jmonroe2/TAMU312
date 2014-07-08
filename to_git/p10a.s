@@ -1,0 +1,24 @@
+ADD  2, 0, 0        # Reg(2)  = 0
+SW   2, 14          # Mem[14] = 0
+LI   1, 1           # Reg(1)  = 1
+ADD  2, 1, 1        # Reg(2)  = 2
+SW   2, 0           # Mem[0]  = 2
+LI   3, 10          # Reg(3)  = 10
+SUB  4, 3, 1        # Reg(4)  = 11
+SW   4, 2           # Mem[2]  = 11
+LW   5, 0           # Reg(5)  = 0
+AND  6, 5, 4        # Reg(6)  = 0
+SW   6, 4           # Mem[4]  = 0
+OR   7, 3, 1        # Reg(7)  = 11
+SW   7, 6           # Mem[6]  = 11
+NEG  1, 7           # Reg(1)  = 249
+SW   1, 8           # Mem[8]  = 249
+LW   3, 14          # Reg(3)  = 0
+SLL  4, 7           # Reg(4)  = 5
+SW   4, 12          # Mem[12] = 5
+SRL  4, 7           # Reg(4)  = 2
+SW   4, 14          # Mem[14] = 2
+MULT 7, 5, 2        # Reg(7)  = 0
+DIV  2, 5, 2        # Reg(2)  = 0
+ADDU 3, 1, 7        # Reg(3)  = 2
+SUBU 4, 1, 7        # Reg(4)  = 249-11=238

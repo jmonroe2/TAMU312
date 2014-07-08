@@ -1,0 +1,8 @@
+To test problems 1-7, please use the test_utils.cpp included (changes included in comments) and use something similar to 312_a3_test.cpp included (changes also indicated in comments)
+To run problem 8-10, run something similar to:
+    initialize();
+    ifstream ifs_test_program("test_program.s");
+    initializeinstructionMemory(ifs_test_program);
+    pipeline();
+
+Note: I was not able to get problem 10 working. It passed all the tests I ran for problem 8, but when using the given (p10*) programs it didn't run correctly. Given the delay do to our miscommunication about the harness, I think it is too late to correct.  

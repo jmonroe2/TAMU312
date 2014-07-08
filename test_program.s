@@ -1,2 +1,5 @@
-ADDU 4, 8, 9
-SW 4, 10
+LI 8, 2
+LI 9, 1
+ADDU 0, 0, 0
+ADDU 0, 0, 0
+SUBU 4, 9, 8

@@ -1,0 +1,52 @@
+LI 1, 0
+LI 2, 1
+SRL 3, 2 #repeat 9 times
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+LI 6, 10
+LI 7, 1
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
+SRL 3, 2
+SLL 3, 3
+EQUAL 4, 3, 1
+AND 5, 4, 2
+ADDU 1, 1, 5
+ADDU 2, 2, 7
